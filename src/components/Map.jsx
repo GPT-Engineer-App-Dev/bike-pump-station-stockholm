@@ -3,7 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { useEffect, useState } from 'react';
 import { Box, Spinner } from '@chakra-ui/react';
-import { Random } from 'random-js';
+import Random from 'random-js';
 
 // Custom icon for bike pump stations
 const bikePumpIcon = new L.Icon({
