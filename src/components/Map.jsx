@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { useEffect, useState } from 'react';
 import { Box, Spinner } from '@chakra-ui/react';
+import { Random } from 'random-js';
 
 // Custom icon for bike pump stations
 const bikePumpIcon = new L.Icon({
@@ -15,17 +16,26 @@ const Map = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch bike pump stations data
-    fetch('https://api.example.com/bike-pump-stations') // Replace with actual API endpoint
-      .then(response => response.json())
-      .then(data => {
-        setStations(data);
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error('Error fetching bike pump stations:', error);
-        setLoading(false);
-      });
+    // Generate random bike pump stations data
+    const random = new Random();
+    const generateRandomStations = (numStations) => {
+      const stations = [];
+      for (let i = 0; i < numStations; i++) {
+        const latitude = random.real(59.3, 59.4, true);
+        const longitude = random.real(18.0, 18.1, true);
+        stations.push({
+          id: i,
+          name: `Station ${i + 1}`,
+          address: `Address ${i + 1}`,
+          latitude,
+          longitude,
+        });
+      }
+      return stations;
+    };
+
+    const randomStations = generateRandomStations(10); // Generate 10 random stations
+    setStations(randomStations);
   }, []);
 
   if (loading) {
