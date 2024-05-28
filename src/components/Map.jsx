@@ -16,26 +16,31 @@ const Map = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Generate random bike pump stations data
-    const random = new Random();
-    const generateRandomStations = (numStations) => {
-      const stations = [];
-      for (let i = 0; i < numStations; i++) {
-        const latitude = random.real(59.3, 59.4, true);
-        const longitude = random.real(18.0, 18.1, true);
-        stations.push({
-          id: i,
-          name: `Station ${i + 1}`,
-          address: `Address ${i + 1}`,
-          latitude,
-          longitude,
-        });
-      }
-      return stations;
-    };
+    try {
+      // Generate random bike pump stations data
+      const random = new Random();
+      const generateRandomStations = (numStations) => {
+        const stations = [];
+        for (let i = 0; i < numStations; i++) {
+          const latitude = random.real(59.3, 59.4, true);
+          const longitude = random.real(18.0, 18.1, true);
+          stations.push({
+            id: i,
+            name: `Station ${i + 1}`,
+            address: `Address ${i + 1}`,
+            latitude,
+            longitude,
+          });
+        }
+        return stations;
+      };
 
-    const randomStations = generateRandomStations(10); // Generate 10 random stations
-    setStations(randomStations);
+      const randomStations = generateRandomStations(10); // Generate 10 random stations
+      setStations(randomStations);
+      setLoading(false); // Update loading state
+    } catch (error) {
+      console.error("Error generating stations data:", error);
+    }
   }, []);
 
   if (loading) {
