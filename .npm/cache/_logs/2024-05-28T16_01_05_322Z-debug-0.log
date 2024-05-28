@@ -1,0 +1,1627 @@
+0 verbose cli /nix/store/7g98q0w4ymrfwv6f543l45f71p383pll-nodejs-20.12.2/bin/node /nix/store/7g98q0w4ymrfwv6f543l45f71p383pll-nodejs-20.12.2/bin/npm
+1 info using npm@10.5.0
+2 info using node@v20.12.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/nix/store/7g98q0w4ymrfwv6f543l45f71p383pll-nodejs-20.12.2/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/tmp/nix-shell.i2uMlg/tmphp09zk8q/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/nix/store/aiqgxh3mqyvd7nsm0625n6ms20bw8x1p-npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/tmp/nix-shell.i2uMlg/tmphp09zk8q/.npm/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 5ms
+17 timing npm:load:configload Completed in 5ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install random-js@1.0.8
+22 verbose argv "install" "random-js@1.0.8"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/tmp/nix-shell.i2uMlg/tmphp09zk8q/.npm/cache/_logs/2024-05-28T16_01_05_322Z-
+26 verbose logfile /tmp/nix-shell.i2uMlg/tmphp09zk8q/.npm/cache/_logs/2024-05-28T16_01_05_322Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 16ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 78ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 silly fetch manifest random-js@1.0.8
+37 http fetch GET 200 https://registry.npmjs.org/random-js 119ms (cache miss)
+38 silly placeDep ROOT random-js@1.0.8 OK for: vite-project@0.0.0 want: 1.0.8
+39 timing idealTree:#root Completed in 124ms
+40 timing idealTree:node_modules/random-js Completed in 0ms
+41 timing idealTree:buildDeps Completed in 125ms
+42 timing idealTree:fixDepFlags Completed in 1ms
+43 timing idealTree Completed in 207ms
+44 timing reify:loadTrees Completed in 207ms
+45 timing reify:diffTrees Completed in 5ms
+46 silly reify moves {}
+47 timing reify:retireShallow Completed in 1ms
+48 timing reify:createSparse Completed in 12ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly audit bulk request {
+50 silly audit   '@aashutoshrathi/word-wrap': [ '1.2.6' ],
+50 silly audit   '@ampproject/remapping': [ '2.2.1' ],
+50 silly audit   '@babel/code-frame': [ '7.23.4' ],
+50 silly audit   '@babel/compat-data': [ '7.23.3' ],
+50 silly audit   '@babel/core': [ '7.23.3' ],
+50 silly audit   '@babel/generator': [ '7.23.4' ],
+50 silly audit   '@babel/helper-compilation-targets': [ '7.22.15' ],
+50 silly audit   '@babel/helper-environment-visitor': [ '7.22.20' ],
+50 silly audit   '@babel/helper-function-name': [ '7.23.0' ],
+50 silly audit   '@babel/helper-hoist-variables': [ '7.22.5' ],
+50 silly audit   '@babel/helper-module-imports': [ '7.22.15' ],
+50 silly audit   '@babel/helper-module-transforms': [ '7.23.3' ],
+50 silly audit   '@babel/helper-plugin-utils': [ '7.22.5' ],
+50 silly audit   '@babel/helper-simple-access': [ '7.22.5' ],
+50 silly audit   '@babel/helper-split-export-declaration': [ '7.22.6' ],
+50 silly audit   '@babel/helper-string-parser': [ '7.23.4' ],
+50 silly audit   '@babel/helper-validator-identifier': [ '7.22.20' ],
+50 silly audit   '@babel/helper-validator-option': [ '7.22.15' ],
+50 silly audit   '@babel/helpers': [ '7.23.4' ],
+50 silly audit   '@babel/highlight': [ '7.23.4' ],
+50 silly audit   '@babel/parser': [ '7.23.4' ],
+50 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.23.3' ],
+50 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.23.3' ],
+50 silly audit   '@babel/runtime': [ '7.23.5' ],
+50 silly audit   '@babel/template': [ '7.22.15' ],
+50 silly audit   '@babel/traverse': [ '7.23.4' ],
+50 silly audit   '@babel/types': [ '7.23.4' ],
+50 silly audit   '@chakra-ui/accordion': [ '2.3.1' ],
+50 silly audit   '@chakra-ui/alert': [ '2.2.2' ],
+50 silly audit   '@chakra-ui/anatomy': [ '2.2.2' ],
+50 silly audit   '@chakra-ui/avatar': [ '2.3.0' ],
+50 silly audit   '@chakra-ui/breadcrumb': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/breakpoint-utils': [ '2.0.8' ],
+50 silly audit   '@chakra-ui/button': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/card': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/checkbox': [ '2.3.2' ],
+50 silly audit   '@chakra-ui/clickable': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/close-button': [ '2.1.1' ],
+50 silly audit   '@chakra-ui/color-mode': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/control-box': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/counter': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/css-reset': [ '2.3.0' ],
+50 silly audit   '@chakra-ui/descendant': [ '3.1.0' ],
+50 silly audit   '@chakra-ui/dom-utils': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/editable': [ '3.1.0' ],
+50 silly audit   '@chakra-ui/event-utils': [ '2.0.8' ],
+50 silly audit   '@chakra-ui/focus-lock': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/form-control': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/hooks': [ '2.2.1' ],
+50 silly audit   '@chakra-ui/icon': [ '3.2.0' ],
+50 silly audit   '@chakra-ui/image': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/input': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/layout': [ '2.3.1' ],
+50 silly audit   '@chakra-ui/lazy-utils': [ '2.0.5' ],
+50 silly audit   '@chakra-ui/live-region': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/media-query': [ '3.3.0' ],
+50 silly audit   '@chakra-ui/menu': [ '2.2.1' ],
+50 silly audit   '@chakra-ui/modal': [ '2.3.1' ],
+50 silly audit   '@chakra-ui/number-input': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/number-utils': [ '2.0.7' ],
+50 silly audit   '@chakra-ui/object-utils': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/pin-input': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/popover': [ '2.2.1' ],
+50 silly audit   '@chakra-ui/popper': [ '3.1.0' ],
+50 silly audit   '@chakra-ui/portal': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/progress': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/provider': [ '2.4.2' ],
+50 silly audit   '@chakra-ui/radio': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/react': [ '2.8.2' ],
+50 silly audit   '@chakra-ui/react-children-utils': [ '2.0.6' ],
+50 silly audit   '@chakra-ui/react-context': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-env': [ '3.1.0' ],
+50 silly audit   '@chakra-ui/react-types': [ '2.0.7' ],
+50 silly audit   '@chakra-ui/react-use-animation-state': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-callback-ref': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-controllable-state': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-disclosure': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-event-listener': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-focus-effect': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-focus-on-pointer-down': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-interval': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-latest-ref': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-merge-refs': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-outside-click': [ '2.2.0' ],
+50 silly audit   '@chakra-ui/react-use-pan-event': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-previous': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-safe-layout-effect': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-size': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-timeout': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-use-update-effect': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/react-utils': [ '2.0.12' ],
+50 silly audit   '@chakra-ui/select': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/shared-utils': [ '2.0.5' ],
+50 silly audit   '@chakra-ui/skeleton': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/skip-nav': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/slider': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/spinner': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/stat': [ '2.1.1' ],
+50 silly audit   '@chakra-ui/stepper': [ '2.3.1' ],
+50 silly audit   '@chakra-ui/styled-system': [ '2.9.2' ],
+50 silly audit   '@chakra-ui/switch': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/system': [ '2.6.2' ],
+50 silly audit   '@chakra-ui/table': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/tabs': [ '3.0.0' ],
+50 silly audit   '@chakra-ui/tag': [ '3.1.1' ],
+50 silly audit   '@chakra-ui/textarea': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/theme': [ '3.3.1' ],
+50 silly audit   '@chakra-ui/theme-tools': [ '2.1.2' ],
+50 silly audit   '@chakra-ui/theme-utils': [ '2.0.21' ],
+50 silly audit   '@chakra-ui/toast': [ '7.0.2' ],
+50 silly audit   '@chakra-ui/tooltip': [ '2.3.1' ],
+50 silly audit   '@chakra-ui/transition': [ '2.1.0' ],
+50 silly audit   '@chakra-ui/utils': [ '2.0.15' ],
+50 silly audit   '@chakra-ui/visually-hidden': [ '2.2.0' ],
+50 silly audit   '@emotion/babel-plugin': [ '11.11.0' ],
+50 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+50 silly audit   'escape-string-regexp': [ '4.0.0', '1.0.5' ],
+50 silly audit   'source-map': [ '0.5.7' ],
+50 silly audit   '@emotion/cache': [ '11.11.0' ],
+50 silly audit   '@emotion/hash': [ '0.9.1' ],
+50 silly audit   '@emotion/is-prop-valid': [ '1.2.1', '0.8.8' ],
+50 silly audit   '@emotion/memoize': [ '0.8.1', '0.7.4' ],
+50 silly audit   '@emotion/react': [ '11.11.1' ],
+50 silly audit   '@emotion/serialize': [ '1.1.2' ],
+50 silly audit   '@emotion/sheet': [ '1.2.2' ],
+50 silly audit   '@emotion/styled': [ '11.11.0' ],
+50 silly audit   '@emotion/unitless': [ '0.8.1' ],
+50 silly audit   '@emotion/use-insertion-effect-with-fallbacks': [ '1.0.1' ],
+50 silly audit   '@emotion/utils': [ '1.2.1' ],
+50 silly audit   '@emotion/weak-memoize': [ '0.3.1' ],
+50 silly audit   '@esbuild/aix-ppc64': [ '0.20.2' ],
+50 silly audit   '@esbuild/android-arm': [ '0.20.2' ],
+50 silly audit   '@esbuild/android-arm64': [ '0.20.2' ],
+50 silly audit   '@esbuild/android-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/darwin-arm64': [ '0.20.2' ],
+50 silly audit   '@esbuild/darwin-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/freebsd-arm64': [ '0.20.2' ],
+50 silly audit   '@esbuild/freebsd-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-arm': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-arm64': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-ia32': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-loong64': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-mips64el': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-ppc64': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-riscv64': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-s390x': [ '0.20.2' ],
+50 silly audit   '@esbuild/linux-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/netbsd-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/openbsd-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/sunos-x64': [ '0.20.2' ],
+50 silly audit   '@esbuild/win32-arm64': [ '0.20.2' ],
+50 silly audit   '@esbuild/win32-ia32': [ '0.20.2' ],
+50 silly audit   '@esbuild/win32-x64': [ '0.20.2' ],
+50 silly audit   '@eslint-community/eslint-utils': [ '4.4.0' ],
+50 silly audit   '@eslint-community/regexpp': [ '4.10.0' ],
+50 silly audit   '@eslint/eslintrc': [ '2.1.3' ],
+50 silly audit   globals: [ '13.23.0', '11.12.0' ],
+50 silly audit   '@eslint/js': [ '8.54.0' ],
+50 silly audit   '@humanwhocodes/config-array': [ '0.11.13' ],
+50 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+50 silly audit   '@humanwhocodes/object-schema': [ '2.0.1' ],
+50 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+50 silly audit   '@jridgewell/resolve-uri': [ '3.1.1' ],
+50 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+50 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+50 silly audit   '@jridgewell/trace-mapping': [ '0.3.19' ],
+50 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+50 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+50 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+50 silly audit   '@popperjs/core': [ '2.11.8' ],
+50 silly audit   '@react-leaflet/core': [ '2.1.0' ],
+50 silly audit   '@remix-run/router': [ '1.13.1' ],
+50 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-android-arm64': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-darwin-arm64': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-darwin-x64': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.14.3' ],
+50 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.14.3' ],
+50 silly audit   '@types/babel__core': [ '7.20.5' ],
+50 silly audit   '@types/babel__generator': [ '7.6.7' ],
+50 silly audit   '@types/babel__template': [ '7.4.4' ],
+50 silly audit   '@types/babel__traverse': [ '7.20.4' ],
+50 silly audit   '@types/estree': [ '1.0.5' ],
+50 silly audit   '@types/lodash': [ '4.14.202' ],
+50 silly audit   '@types/lodash.mergewith': [ '4.6.7' ],
+50 silly audit   '@types/node': [ '20.10.4' ],
+50 silly audit   '@types/parse-json': [ '4.0.2' ],
+50 silly audit   '@types/prop-types': [ '15.7.11' ],
+50 silly audit   '@types/react': [ '18.2.38' ],
+50 silly audit   '@types/react-dom': [ '18.2.17' ],
+50 silly audit   '@types/scheduler': [ '0.16.8' ],
+50 silly audit   '@ungap/structured-clone': [ '1.2.0' ],
+50 silly audit   '@vitejs/plugin-react': [ '4.2.0' ],
+50 silly audit   '@zag-js/dom-query': [ '0.16.0' ],
+50 silly audit   '@zag-js/element-size': [ '0.10.5' ],
+50 silly audit   '@zag-js/focus-visible': [ '0.16.0' ],
+50 silly audit   acorn: [ '8.11.2' ],
+50 silly audit   'acorn-jsx': [ '5.3.2' ],
+50 silly audit   ajv: [ '6.12.6' ],
+50 silly audit   'ansi-regex': [ '5.0.1' ],
+50 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+50 silly audit   argparse: [ '2.0.1' ],
+50 silly audit   'aria-hidden': [ '1.2.3' ],
+50 silly audit   'array-buffer-byte-length': [ '1.0.0' ],
+50 silly audit   'array-includes': [ '3.1.7' ],
+50 silly audit   'array.prototype.flat': [ '1.3.2' ],
+50 silly audit   'array.prototype.flatmap': [ '1.3.2' ],
+50 silly audit   'array.prototype.tosorted': [ '1.1.2' ],
+50 silly audit   'arraybuffer.prototype.slice': [ '1.0.2' ],
+50 silly audit   'asynciterator.prototype': [ '1.0.0' ],
+50 silly audit   'available-typed-arrays': [ '1.0.5' ],
+50 silly audit   'babel-plugin-macros': [ '3.1.0' ],
+50 silly audit   'balanced-match': [ '1.0.2' ],
+50 silly audit   'brace-expansion': [ '1.1.11' ],
+50 silly audit   browserslist: [ '4.22.1' ],
+50 silly audit   'call-bind': [ '1.0.5' ],
+50 silly audit   callsites: [ '3.1.0' ],
+50 silly audit   'caniuse-lite': [ '1.0.30001565' ],
+50 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+50 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+50 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+50 silly audit   color2k: [ '2.0.2' ],
+50 silly audit   'compute-scroll-into-view': [ '3.0.3' ],
+50 silly audit   'concat-map': [ '0.0.1' ],
+50 silly audit   'copy-to-clipboard': [ '3.3.3' ],
+50 silly audit   cosmiconfig: [ '7.1.0' ],
+50 silly audit   yaml: [ '1.10.2' ],
+50 silly audit   'cross-spawn': [ '7.0.3' ],
+50 silly audit   'css-box-model': [ '1.2.1' ],
+50 silly audit   csstype: [ '3.1.2' ],
+50 silly audit   debug: [ '4.3.4' ],
+50 silly audit   'deep-is': [ '0.1.4' ],
+50 silly audit   'define-data-property': [ '1.1.1' ],
+50 silly audit   'define-properties': [ '1.2.1' ],
+50 silly audit   'detect-node-es': [ '1.1.0' ],
+50 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+50 silly audit   'electron-to-chromium': [ '1.4.594' ],
+50 silly audit   'error-ex': [ '1.3.2' ],
+50 silly audit   'is-arrayish': [ '0.2.1' ],
+50 silly audit   'es-abstract': [ '1.22.3' ],
+50 silly audit   'es-iterator-helpers': [ '1.0.15' ],
+50 silly audit   'es-set-tostringtag': [ '2.0.2' ],
+50 silly audit   'es-shim-unscopables': [ '1.0.2' ],
+50 silly audit   'es-to-primitive': [ '1.2.1' ],
+50 silly audit   esbuild: [ '0.20.2' ],
+50 silly audit   escalade: [ '3.1.1' ],
+50 silly audit   eslint: [ '8.54.0' ],
+50 silly audit   'eslint-plugin-react': [ '7.33.2' ],
+50 silly audit   'eslint-plugin-react-hooks': [ '4.6.0' ],
+50 silly audit   'eslint-plugin-react-refresh': [ '0.4.4' ],
+50 silly audit   resolve: [ '2.0.0-next.5', '1.22.4' ],
+50 silly audit   'eslint-scope': [ '7.2.2' ],
+50 silly audit   'eslint-visitor-keys': [ '3.4.3' ],
+50 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+50 silly audit   'supports-color': [ '7.2.0', '5.5.0' ],
+50 silly audit   espree: [ '9.6.1' ],
+50 silly audit   esquery: [ '1.5.0' ],
+50 silly audit   esrecurse: [ '4.3.0' ],
+50 silly audit   estraverse: [ '5.3.0' ],
+50 silly audit   esutils: [ '2.0.3' ],
+50 silly audit   'fast-deep-equal': [ '3.1.3' ],
+50 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+50 silly audit   'fast-levenshtein': [ '2.0.6' ],
+50 silly audit   fastq: [ '1.15.0' ],
+50 silly audit   'file-entry-cache': [ '6.0.1' ],
+50 silly audit   'find-root': [ '1.1.0' ],
+50 silly audit   'find-up': [ '5.0.0' ],
+50 silly audit   'flat-cache': [ '3.2.0' ],
+50 silly audit   flatted: [ '3.2.9' ],
+50 silly audit   'focus-lock': [ '1.0.0' ],
+50 silly audit   'for-each': [ '0.3.3' ],
+50 silly audit   'framer-motion': [ '10.16.15' ],
+50 silly audit   framesync: [ '6.1.2' ],
+50 silly audit   tslib: [ '2.4.0', '2.6.2' ],
+50 silly audit   'fs.realpath': [ '1.0.0' ],
+50 silly audit   fsevents: [ '2.3.3' ],
+50 silly audit   'function-bind': [ '1.1.2' ],
+50 silly audit   'function.prototype.name': [ '1.1.6' ],
+50 silly audit   'functions-have-names': [ '1.2.3' ],
+50 silly audit   gensync: [ '1.0.0-beta.2' ],
+50 silly audit   'get-intrinsic': [ '1.2.2' ],
+50 silly audit   'get-nonce': [ '1.0.1' ],
+50 silly audit   'get-symbol-description': [ '1.0.0' ],
+50 silly audit   glob: [ '7.1.6' ],
+50 silly audit   'glob-parent': [ '6.0.2' ],
+50 silly audit   globalthis: [ '1.0.3' ],
+50 silly audit   gopd: [ '1.0.1' ],
+50 silly audit   graphemer: [ '1.4.0' ],
+50 silly audit   has: [ '1.0.3' ],
+50 silly audit   'has-bigints': [ '1.0.2' ],
+50 silly audit   'has-property-descriptors': [ '1.0.1' ],
+50 silly audit   'has-proto': [ '1.0.1' ],
+50 silly audit   'has-symbols': [ '1.0.3' ],
+50 silly audit   'has-tostringtag': [ '1.0.0' ],
+50 silly audit   hasown: [ '2.0.0' ],
+50 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+50 silly audit   ignore: [ '5.3.0' ],
+50 silly audit   'import-fresh': [ '3.3.0' ],
+50 silly audit   imurmurhash: [ '0.1.4' ],
+50 silly audit   inflight: [ '1.0.6' ],
+50 silly audit   inherits: [ '2.0.4' ],
+50 silly audit   'internal-slot': [ '1.0.6' ],
+50 silly audit   invariant: [ '2.2.4' ],
+50 silly audit   'is-array-buffer': [ '3.0.2' ],
+50 silly audit   'is-async-function': [ '2.0.0' ],
+50 silly audit   'is-bigint': [ '1.0.4' ],
+50 silly audit   'is-boolean-object': [ '1.1.2' ],
+50 silly audit   'is-callable': [ '1.2.7' ],
+50 silly audit   'is-core-module': [ '2.13.0' ],
+50 silly audit   'is-date-object': [ '1.0.5' ],
+50 silly audit   'is-extglob': [ '2.1.1' ],
+50 silly audit   'is-finalizationregistry': [ '1.0.2' ],
+50 silly audit   'is-generator-function': [ '1.0.10' ],
+50 silly audit   'is-glob': [ '4.0.3' ],
+50 silly audit   'is-map': [ '2.0.2' ],
+50 silly audit   'is-negative-zero': [ '2.0.2' ],
+50 silly audit   'is-number-object': [ '1.0.7' ],
+50 silly audit   'is-path-inside': [ '3.0.3' ],
+50 silly audit   'is-regex': [ '1.1.4' ],
+50 silly audit   'is-set': [ '2.0.2' ],
+50 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+50 silly audit   'is-string': [ '1.0.7' ],
+50 silly audit   'is-symbol': [ '1.0.4' ],
+50 silly audit   'is-typed-array': [ '1.1.12' ],
+50 silly audit   'is-weakmap': [ '2.0.1' ],
+50 silly audit   'is-weakref': [ '1.0.2' ],
+50 silly audit   'is-weakset': [ '2.0.2' ],
+50 silly audit   isarray: [ '2.0.5' ],
+50 silly audit   isexe: [ '2.0.0' ],
+50 silly audit   'iterator.prototype': [ '1.1.2' ],
+50 silly audit   'js-tokens': [ '4.0.0' ],
+50 silly audit   'js-yaml': [ '4.1.0' ],
+50 silly audit   jsesc: [ '2.5.2' ],
+50 silly audit   'json-buffer': [ '3.0.1' ],
+50 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+50 silly audit   'json-schema-traverse': [ '0.4.1' ],
+50 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+50 silly audit   json5: [ '2.2.3' ],
+50 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+50 silly audit   keyv: [ '4.5.4' ],
+50 silly audit   leaflet: [ '1.9.3' ],
+50 silly audit   levn: [ '0.4.1' ],
+50 silly audit   'lines-and-columns': [ '1.2.4' ],
+50 silly audit   'locate-path': [ '6.0.0' ],
+50 silly audit   'lodash.merge': [ '4.6.2' ],
+50 silly audit   'lodash.mergewith': [ '4.6.2' ],
+50 silly audit   'loose-envify': [ '1.4.0' ],
+50 silly audit   'lru-cache': [ '5.1.1' ],
+50 silly audit   minimatch: [ '3.1.2' ],
+50 silly audit   ms: [ '2.1.2' ],
+50 silly audit   nanoid: [ '3.3.7' ],
+50 silly audit   'natural-compare': [ '1.4.0' ],
+50 silly audit   'node-releases': [ '2.0.13' ],
+50 silly audit   'object-assign': [ '4.1.1' ],
+50 silly audit   'object-inspect': [ '1.13.1' ],
+50 silly audit   'object-keys': [ '1.1.1' ],
+50 silly audit   'object.assign': [ '4.1.4' ],
+50 silly audit   'object.entries': [ '1.1.7' ],
+50 silly audit   'object.fromentries': [ '2.0.7' ],
+50 silly audit   'object.hasown': [ '1.1.3' ],
+50 silly audit   'object.values': [ '1.1.7' ],
+50 silly audit   once: [ '1.4.0' ],
+50 silly audit   optionator: [ '0.9.3' ],
+50 silly audit   'p-limit': [ '3.1.0' ],
+50 silly audit   'p-locate': [ '5.0.0' ],
+50 silly audit   'parent-module': [ '1.0.1' ],
+50 silly audit   'parse-json': [ '5.2.0' ],
+50 silly audit   'path-exists': [ '4.0.0' ],
+50 silly audit   'path-is-absolute': [ '1.0.1' ],
+50 silly audit   'path-key': [ '3.1.1' ],
+50 silly audit   'path-parse': [ '1.0.7' ],
+50 silly audit   'path-type': [ '4.0.0' ],
+50 silly audit   picocolors: [ '1.0.0' ],
+50 silly audit   postcss: [ '8.4.38' ],
+50 silly audit   'prelude-ls': [ '1.2.1' ],
+50 silly audit   'prop-types': [ '15.8.1' ],
+50 silly audit   punycode: [ '2.3.1' ],
+50 silly audit   'queue-microtask': [ '1.2.3' ],
+50 silly audit   react: [ '18.2.0' ],
+50 silly audit   'react-clientside-effect': [ '1.2.6' ],
+50 silly audit   'react-dom': [ '18.2.0' ],
+50 silly audit   'react-fast-compare': [ '3.2.2' ],
+50 silly audit   'react-focus-lock': [ '2.9.6' ],
+50 silly audit   'react-icons': [ '4.12.0' ],
+50 silly audit   'react-is': [ '16.13.1' ],
+50 silly audit   'react-leaflet': [ '4.2.1' ],
+50 silly audit   'react-refresh': [ '0.14.0' ],
+50 silly audit   'react-remove-scroll': [ '2.5.7' ],
+50 silly audit   'react-remove-scroll-bar': [ '2.3.4' ],
+50 silly audit   'react-router': [ '6.20.1' ],
+50 silly audit   'react-router-dom': [ '6.20.1' ],
+50 silly audit   'react-style-singleton': [ '2.2.1' ],
+50 silly audit   'reflect.getprototypeof': [ '1.0.4' ],
+50 silly audit   'regenerator-runtime': [ '0.14.0' ],
+50 silly audit   'regexp.prototype.flags': [ '1.5.1' ],
+50 silly audit   'resolve-from': [ '4.0.0' ],
+50 silly audit   reusify: [ '1.0.4' ],
+50 silly audit   rimraf: [ '3.0.2' ],
+50 silly audit   rollup: [ '4.14.3' ],
+50 silly audit   'run-parallel': [ '1.2.0' ],
+50 silly audit   'safe-array-concat': [ '1.0.1' ],
+50 silly audit   'safe-regex-test': [ '1.0.0' ],
+50 silly audit   scheduler: [ '0.23.0' ],
+50 silly audit   semver: [ '6.3.1' ],
+50 silly audit   'set-function-length': [ '1.1.1' ],
+50 silly audit   'set-function-name': [ '2.0.1' ],
+50 silly audit   'shebang-command': [ '2.0.0' ],
+50 silly audit   'shebang-regex': [ '3.0.0' ],
+50 silly audit   'side-channel': [ '1.0.4' ],
+50 silly audit   'source-map-js': [ '1.2.0' ],
+50 silly audit   'string.prototype.matchall': [ '4.0.10' ],
+50 silly audit   'string.prototype.trim': [ '1.2.8' ],
+50 silly audit   'string.prototype.trimend': [ '1.0.7' ],
+50 silly audit   'string.prototype.trimstart': [ '1.0.7' ],
+50 silly audit   'strip-ansi': [ '6.0.1' ],
+50 silly audit   'strip-json-comments': [ '3.1.1' ],
+50 silly audit   stylis: [ '4.2.0' ],
+50 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+50 silly audit   'text-table': [ '0.2.0' ],
+50 silly audit   'tiny-invariant': [ '1.3.1' ],
+50 silly audit   'to-fast-properties': [ '2.0.0' ],
+50 silly audit   'toggle-selection': [ '1.0.6' ],
+50 silly audit   'type-check': [ '0.4.0' ],
+50 silly audit   'type-fest': [ '0.20.2' ],
+50 silly audit   'typed-array-buffer': [ '1.0.0' ],
+50 silly audit   'typed-array-byte-length': [ '1.0.0' ],
+50 silly audit   'typed-array-byte-offset': [ '1.0.0' ],
+50 silly audit   'typed-array-length': [ '1.0.4' ],
+50 silly audit   'unbox-primitive': [ '1.0.2' ],
+50 silly audit   'undici-types': [ '5.26.5' ],
+50 silly audit   'update-browserslist-db': [ '1.0.13' ],
+50 silly audit   'uri-js': [ '4.4.1' ],
+50 silly audit   'use-callback-ref': [ '1.3.0' ],
+50 silly audit   'use-sidecar': [ '1.1.2' ],
+50 silly audit   vite: [ '5.2.9' ],
+50 silly audit   which: [ '2.0.2' ],
+50 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+50 silly audit   'which-builtin-type': [ '1.1.3' ],
+50 silly audit   'which-collection': [ '1.0.1' ],
+50 silly audit   'which-typed-array': [ '1.1.13' ],
+50 silly audit   wrappy: [ '1.0.2' ],
+50 silly audit   yallist: [ '3.1.1' ],
+50 silly audit   'yocto-queue': [ '0.1.0' ],
+50 silly audit   'random-js': [ '1.0.8' ]
+50 silly audit }
+51 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/fsevents
+52 silly reify mark deleted [ '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/fsevents' ]
+53 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-x64-msvc
+54 silly reify mark deleted [
+54 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-x64-msvc'
+54 silly reify ]
+55 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-ia32-msvc
+56 silly reify mark deleted [
+56 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-ia32-msvc'
+56 silly reify ]
+57 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-arm64-msvc
+58 silly reify mark deleted [
+58 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-win32-arm64-msvc'
+58 silly reify ]
+59 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-s390x-gnu
+60 silly reify mark deleted [
+60 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-s390x-gnu'
+60 silly reify ]
+61 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-riscv64-gnu
+62 silly reify mark deleted [
+62 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-riscv64-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+64 silly reify mark deleted [
+64 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm64-musl
+66 silly reify mark deleted [
+66 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm64-musl'
+66 silly reify ]
+67 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm64-gnu
+68 silly reify mark deleted [
+68 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm64-gnu'
+68 silly reify ]
+69 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm-musleabihf
+70 silly reify mark deleted [
+70 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm-musleabihf'
+70 silly reify ]
+71 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm-gnueabihf
+72 silly reify mark deleted [
+72 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+72 silly reify ]
+73 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-darwin-x64
+74 silly reify mark deleted [
+74 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-darwin-x64'
+74 silly reify ]
+75 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-darwin-arm64
+76 silly reify mark deleted [
+76 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-darwin-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-android-arm64
+78 silly reify mark deleted [
+78 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-android-arm64'
+78 silly reify ]
+79 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-android-arm-eabi
+80 silly reify mark deleted [
+80 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@rollup/rollup-android-arm-eabi'
+80 silly reify ]
+81 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-x64
+82 silly reify mark deleted [ '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-x64' ]
+83 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-ia32
+84 silly reify mark deleted [
+84 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-ia32'
+84 silly reify ]
+85 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-arm64
+86 silly reify mark deleted [
+86 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/win32-arm64'
+86 silly reify ]
+87 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/sunos-x64
+88 silly reify mark deleted [ '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/sunos-x64' ]
+89 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/openbsd-x64
+90 silly reify mark deleted [
+90 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/openbsd-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/netbsd-x64
+92 silly reify mark deleted [
+92 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/netbsd-x64'
+92 silly reify ]
+93 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-s390x
+94 silly reify mark deleted [
+94 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-s390x'
+94 silly reify ]
+95 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-riscv64
+96 silly reify mark deleted [
+96 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-riscv64'
+96 silly reify ]
+97 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-ppc64
+98 silly reify mark deleted [
+98 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-ppc64'
+98 silly reify ]
+99 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-mips64el
+100 silly reify mark deleted [
+100 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-mips64el'
+100 silly reify ]
+101 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-loong64
+102 silly reify mark deleted [
+102 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-loong64'
+102 silly reify ]
+103 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-ia32
+104 silly reify mark deleted [
+104 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-ia32'
+104 silly reify ]
+105 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-arm64
+106 silly reify mark deleted [
+106 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-arm64'
+106 silly reify ]
+107 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-arm
+108 silly reify mark deleted [ '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/linux-arm' ]
+109 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/freebsd-x64
+110 silly reify mark deleted [
+110 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/freebsd-x64'
+110 silly reify ]
+111 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/freebsd-arm64
+112 silly reify mark deleted [
+112 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/freebsd-arm64'
+112 silly reify ]
+113 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/darwin-x64
+114 silly reify mark deleted [
+114 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/darwin-x64'
+114 silly reify ]
+115 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/darwin-arm64
+116 silly reify mark deleted [
+116 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/darwin-arm64'
+116 silly reify ]
+117 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-x64
+118 silly reify mark deleted [
+118 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-x64'
+118 silly reify ]
+119 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-arm64
+120 silly reify mark deleted [
+120 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-arm64'
+120 silly reify ]
+121 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-arm
+122 silly reify mark deleted [
+122 silly reify   '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/android-arm'
+122 silly reify ]
+123 verbose reify failed optional dependency /tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/aix-ppc64
+124 silly reify mark deleted [ '/tmp/nix-shell.i2uMlg/tmphp09zk8q/node_modules/@esbuild/aix-ppc64' ]
+125 timing reifyNode:node_modules/fsevents Completed in 21ms
+126 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 21ms
+127 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 21ms
+128 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 21ms
+129 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 21ms
+130 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 21ms
+131 timing reifyNode:node_modules/@rollup/rollup-linux-powerpc64le-gnu Completed in 21ms
+132 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 21ms
+133 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 21ms
+134 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 21ms
+135 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 21ms
+136 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 21ms
+137 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 21ms
+138 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 21ms
+139 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 21ms
+140 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 21ms
+141 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 21ms
+142 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 21ms
+143 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 21ms
+144 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 21ms
+145 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 21ms
+146 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 21ms
+147 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 21ms
+148 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 21ms
+149 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 21ms
+150 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 21ms
+151 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 21ms
+152 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 21ms
+153 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 21ms
+154 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 21ms
+155 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 22ms
+156 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 22ms
+157 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 22ms
+158 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 22ms
+159 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 22ms
+160 timing reifyNode:node_modules/@esbuild/android-arm Completed in 22ms
+161 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 22ms
+162 silly tarball no local data for random-js@https://registry.npmjs.org/random-js/-/random-js-1.0.8.tgz. Extracting by manifest.
+163 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 712ms
+164 timing auditReport:getReport Completed in 715ms
+165 silly audit report {}
+166 timing auditReport:init Completed in 0ms
+167 timing reify:audit Completed in 715ms
+168 timing reifyNode:node_modules/natural-compare Completed in 749ms
+169 timing reifyNode:node_modules/parent-module Completed in 755ms
+170 timing reifyNode:node_modules/path-parse Completed in 755ms
+171 timing reifyNode:node_modules/wrappy Completed in 756ms
+172 timing reifyNode:node_modules/path-is-absolute Completed in 755ms
+173 timing reifyNode:node_modules/object-assign Completed in 755ms
+174 timing reifyNode:node_modules/inflight Completed in 754ms
+175 timing reifyNode:node_modules/once Completed in 756ms
+176 timing reifyNode:node_modules/has-flag Completed in 755ms
+177 timing reifyNode:node_modules/imurmurhash Completed in 755ms
+178 timing reifyNode:node_modules/fast-levenshtein Completed in 755ms
+179 timing reifyNode:node_modules/is-extglob Completed in 755ms
+180 timing reifyNode:node_modules/glob-parent Completed in 755ms
+181 timing reifyNode:node_modules/parse-json Completed in 757ms
+182 timing reifyNode:node_modules/lru-cache Completed in 757ms
+183 timing reifyNode:node_modules/isarray Completed in 758ms
+184 timing reifyNode:node_modules/to-fast-properties Completed in 762ms
+185 timing reifyNode:node_modules/run-parallel Completed in 762ms
+186 timing reifyNode:node_modules/resolve-from Completed in 762ms
+187 timing reifyNode:node_modules/locate-path Completed in 761ms
+188 timing reifyNode:node_modules/shebang-command Completed in 763ms
+189 timing reifyNode:node_modules/@types/prop-types Completed in 760ms
+190 timing reifyNode:node_modules/@types/parse-json Completed in 760ms
+191 timing reifyNode:node_modules/@types/lodash.mergewith Completed in 760ms
+192 timing reifyNode:node_modules/@types/babel__template Completed in 761ms
+193 timing reifyNode:node_modules/@types/babel__generator Completed in 761ms
+194 timing reifyNode:node_modules/yocto-queue Completed in 764ms
+195 timing reifyNode:node_modules/ms Completed in 763ms
+196 timing reifyNode:node_modules/path-exists Completed in 763ms
+197 timing reifyNode:node_modules/p-limit Completed in 764ms
+198 timing reifyNode:node_modules/path-type Completed in 764ms
+199 timing reifyNode:node_modules/is-glob Completed in 763ms
+200 timing reifyNode:node_modules/path-key Completed in 764ms
+201 timing reifyNode:node_modules/inherits Completed in 763ms
+202 timing reifyNode:node_modules/p-locate Completed in 764ms
+203 timing reifyNode:node_modules/@emotion/babel-plugin/node_modules/convert-source-map Completed in 763ms
+204 timing reifyNode:node_modules/eslint/node_modules/color-name Completed in 764ms
+205 timing reifyNode:node_modules/json-parse-even-better-errors Completed in 766ms
+206 timing reifyNode:node_modules/find-up Completed in 765ms
+207 timing reifyNode:node_modules/lines-and-columns Completed in 766ms
+208 timing reifyNode:node_modules/brace-expansion Completed in 764ms
+209 timing reifyNode:node_modules/error-ex Completed in 766ms
+210 timing reifyNode:node_modules/ansi-styles Completed in 765ms
+211 timing reifyNode:node_modules/import-fresh Completed in 766ms
+212 timing reifyNode:node_modules/strip-ansi Completed in 768ms
+213 timing reifyNode:node_modules/shebang-regex Completed in 769ms
+214 timing reifyNode:node_modules/queue-microtask Completed in 768ms
+215 timing reifyNode:node_modules/is-path-inside Completed in 767ms
+216 timing reifyNode:node_modules/@chakra-ui/react-types Completed in 765ms
+217 timing reifyNode:node_modules/@types/scheduler Completed in 767ms
+218 timing reifyNode:node_modules/supports-color Completed in 770ms
+219 timing reifyNode:node_modules/yallist Completed in 770ms
+220 timing reifyNode:node_modules/strip-json-comments Completed in 771ms
+221 timing reifyNode:node_modules/escape-string-regexp Completed in 769ms
+222 timing reifyNode:node_modules/@aashutoshrathi/word-wrap Completed in 768ms
+223 timing reifyNode:node_modules/eslint/node_modules/has-flag Completed in 770ms
+224 timing reifyNode:node_modules/eslint/node_modules/supports-color Completed in 770ms
+225 timing reifyNode:node_modules/eslint/node_modules/escape-string-regexp Completed in 770ms
+226 timing reifyNode:node_modules/fs.realpath Completed in 770ms
+227 timing reifyNode:node_modules/@emotion/babel-plugin/node_modules/escape-string-regexp Completed in 769ms
+228 timing reifyNode:node_modules/convert-source-map Completed in 770ms
+229 timing reifyNode:node_modules/callsites Completed in 770ms
+230 timing reifyNode:node_modules/ansi-regex Completed in 770ms
+231 timing reifyNode:node_modules/js-tokens Completed in 773ms
+232 timing reifyNode:node_modules/keyv Completed in 773ms
+233 timing reifyNode:node_modules/@types/babel__core Completed in 772ms
+234 timing reifyNode:node_modules/picocolors Completed in 775ms
+235 timing reifyNode:node_modules/minimatch Completed in 775ms
+236 timing reifyNode:node_modules/lodash.merge Completed in 775ms
+237 timing reifyNode:node_modules/invariant Completed in 774ms
+238 timing reifyNode:node_modules/lodash.mergewith Completed in 775ms
+239 timing reifyNode:node_modules/has Completed in 775ms
+240 timing reifyNode:node_modules/globals Completed in 775ms
+241 timing reifyNode:node_modules/file-entry-cache Completed in 775ms
+242 timing reifyNode:node_modules/@babel/plugin-transform-react-jsx-self Completed in 773ms
+243 timing reifyNode:node_modules/@babel/plugin-transform-react-jsx-source Completed in 773ms
+244 timing reifyNode:node_modules/@babel/helper-split-export-declaration Completed in 773ms
+245 timing reifyNode:node_modules/@babel/helper-plugin-utils Completed in 774ms
+246 timing reifyNode:node_modules/@babel/helper-simple-access Completed in 774ms
+247 timing reifyNode:node_modules/@babel/helper-hoist-variables Completed in 774ms
+248 timing reifyNode:node_modules/@babel/helper-environment-visitor Completed in 774ms
+249 timing reifyNode:node_modules/eslint/node_modules/ansi-styles Completed in 776ms
+250 timing reifyNode:node_modules/loose-envify Completed in 777ms
+251 timing reifyNode:node_modules/json-buffer Completed in 777ms
+252 timing reifyNode:node_modules/which Completed in 779ms
+253 timing reifyNode:node_modules/regenerator-runtime Completed in 778ms
+254 timing reifyNode:node_modules/balanced-match Completed in 777ms
+255 timing reifyNode:node_modules/react-fast-compare Completed in 779ms
+256 timing reifyNode:node_modules/@chakra-ui/shared-utils Completed in 776ms
+257 timing reifyNode:node_modules/esrecurse Completed in 778ms
+258 timing reifyNode:node_modules/@types/estree Completed in 778ms
+259 timing reifyNode:node_modules/@chakra-ui/lazy-utils Completed in 777ms
+260 timing reifyNode:node_modules/toggle-selection Completed in 781ms
+261 timing reifyNode:node_modules/@chakra-ui/number-utils Completed in 777ms
+262 timing reifyNode:node_modules/@chakra-ui/react-children-utils Completed in 777ms
+263 timing reifyNode:node_modules/babel-plugin-macros Completed in 780ms
+264 timing reifyNode:node_modules/color-name Completed in 780ms
+265 timing reifyNode:node_modules/@humanwhocodes/config-array Completed in 780ms
+266 timing reifyNode:node_modules/update-browserslist-db Completed in 783ms
+267 timing reifyNode:node_modules/find-root Completed in 782ms
+268 timing reifyNode:node_modules/set-function-name Completed in 784ms
+269 timing reifyNode:node_modules/rimraf Completed in 784ms
+270 timing reifyNode:node_modules/levn Completed in 783ms
+271 timing reifyNode:node_modules/type-check Completed in 785ms
+272 timing reifyNode:node_modules/which-builtin-type Completed in 786ms
+273 timing reifyNode:node_modules/punycode Completed in 785ms
+274 timing reifyNode:node_modules/@babel/highlight Completed in 782ms
+275 timing reifyNode:node_modules/@babel/helper-string-parser Completed in 783ms
+276 timing reifyNode:node_modules/@babel/helper-function-name Completed in 783ms
+277 timing reifyNode:node_modules/@babel/code-frame Completed in 783ms
+278 timing reifyNode:node_modules/error-ex/node_modules/is-arrayish Completed in 785ms
+279 timing reifyNode:node_modules/es-set-tostringtag Completed in 785ms
+280 timing reifyNode:node_modules/acorn-jsx Completed in 785ms
+281 timing reifyNode:node_modules/@chakra-ui/react-use-update-effect Completed in 785ms
+282 timing reifyNode:node_modules/@chakra-ui/react-use-safe-layout-effect Completed in 785ms
+283 timing reifyNode:node_modules/@chakra-ui/react-use-size Completed in 785ms
+284 timing reifyNode:node_modules/@chakra-ui/react-use-previous Completed in 785ms
+285 timing reifyNode:node_modules/@chakra-ui/react-use-merge-refs Completed in 785ms
+286 timing reifyNode:node_modules/@chakra-ui/react-context Completed in 785ms
+287 timing reifyNode:node_modules/@chakra-ui/react-use-latest-ref Completed in 785ms
+288 timing reifyNode:node_modules/@chakra-ui/react-use-callback-ref Completed in 785ms
+289 timing reifyNode:node_modules/@chakra-ui/react-use-timeout Completed in 785ms
+290 timing reifyNode:node_modules/@chakra-ui/react-use-interval Completed in 785ms
+291 timing reifyNode:node_modules/@chakra-ui/react-use-animation-state Completed in 785ms
+292 timing reifyNode:node_modules/has-proto Completed in 788ms
+293 timing reifyNode:node_modules/gopd Completed in 788ms
+294 timing reifyNode:node_modules/flat-cache Completed in 788ms
+295 timing reifyNode:node_modules/eslint/node_modules/color-convert Completed in 789ms
+296 timing reifyNode:node_modules/debug Completed in 789ms
+297 timing reifyNode:node_modules/color-convert Completed in 788ms
+298 timing reifyNode:node_modules/isexe Completed in 791ms
+299 timing reifyNode:node_modules/concat-map Completed in 789ms
+300 timing reifyNode:node_modules/safe-regex-test Completed in 792ms
+301 timing reifyNode:node_modules/react-clientside-effect Completed in 793ms
+302 timing reifyNode:node_modules/@types/babel__traverse Completed in 792ms
+303 timing reifyNode:node_modules/@chakra-ui/react-use-event-listener Completed in 792ms
+304 timing reifyNode:node_modules/for-each Completed in 794ms
+305 timing reifyNode:node_modules/gensync Completed in 794ms
+306 timing reifyNode:node_modules/has-bigints Completed in 794ms
+307 timing reifyNode:node_modules/optionator Completed in 796ms
+308 timing reifyNode:node_modules/@eslint/eslintrc/node_modules/globals Completed in 794ms
+309 timing reifyNode:node_modules/estraverse Completed in 796ms
+310 timing reifyNode:node_modules/iterator.prototype Completed in 797ms
+311 timing reifyNode:node_modules/detect-node-es Completed in 796ms
+312 timing reifyNode:node_modules/eslint/node_modules/globals Completed in 796ms
+313 timing reifyNode:node_modules/chalk Completed in 795ms
+314 timing reifyNode:node_modules/@eslint/js Completed in 795ms
+315 timing reifyNode:node_modules/reusify Completed in 799ms
+316 timing reifyNode:node_modules/react-is Completed in 798ms
+317 timing reifyNode:node_modules/@chakra-ui/react-use-controllable-state Completed in 795ms
+318 timing reifyNode:node_modules/typed-array-buffer Completed in 800ms
+319 timing reifyNode:node_modules/@chakra-ui/react-use-disclosure Completed in 796ms
+320 timing reifyNode:node_modules/@chakra-ui/react-use-focus-on-pointer-down Completed in 796ms
+321 timing reifyNode:node_modules/@chakra-ui/react-use-focus-effect Completed in 796ms
+322 timing reifyNode:node_modules/@chakra-ui/react-use-outside-click Completed in 796ms
+323 timing reifyNode:node_modules/asynciterator.prototype Completed in 797ms
+324 timing reifyNode:node_modules/node-releases Completed in 799ms
+325 timing reifyNode:node_modules/ignore Completed in 798ms
+326 timing reifyNode:node_modules/glob Completed in 799ms
+327 timing reifyNode:node_modules/eslint/node_modules/chalk Completed in 799ms
+328 timing reifyNode:node_modules/escalade Completed in 800ms
+329 timing reifyNode:node_modules/deep-is Completed in 800ms
+330 timing reifyNode:node_modules/is-weakref Completed in 801ms
+331 timing reifyNode:node_modules/copy-to-clipboard Completed in 799ms
+332 timing reifyNode:node_modules/jsesc Completed in 801ms
+333 timing reifyNode:node_modules/is-finalizationregistry Completed in 800ms
+334 timing reifyNode:node_modules/semver Completed in 803ms
+335 timing reifyNode:node_modules/set-function-length Completed in 803ms
+336 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 803ms
+337 timing reifyNode:node_modules/is-async-function Completed in 801ms
+338 timing reifyNode:node_modules/array-buffer-byte-length Completed in 801ms
+339 timing reifyNode:node_modules/which-collection Completed in 804ms
+340 timing reifyNode:node_modules/has-property-descriptors Completed in 803ms
+341 timing reifyNode:node_modules/get-nonce Completed in 803ms
+342 timing reifyNode:node_modules/is-array-buffer Completed in 803ms
+343 timing reifyNode:node_modules/@babel/helper-validator-option Completed in 801ms
+344 timing reifyNode:node_modules/is-weakmap Completed in 805ms
+345 timing reifyNode:node_modules/cross-spawn Completed in 804ms
+346 timing reifyNode:node_modules/define-properties Completed in 804ms
+347 timing reifyNode:node_modules/@jridgewell/set-array Completed in 803ms
+348 timing reifyNode:node_modules/json-schema-traverse Completed in 805ms
+349 timing reifyNode:node_modules/typed-array-length Completed in 806ms
+350 timing reifyNode:node_modules/typed-array-byte-offset Completed in 806ms
+351 timing reifyNode:node_modules/safe-array-concat Completed in 807ms
+352 timing reifyNode:node_modules/typed-array-byte-length Completed in 807ms
+353 timing reifyNode:node_modules/@types/react-dom Completed in 804ms
+354 timing reifyNode:node_modules/is-regex Completed in 807ms
+355 timing reifyNode:node_modules/which-typed-array Completed in 808ms
+356 timing reifyNode:node_modules/is-number-object Completed in 806ms
+357 timing reifyNode:node_modules/internal-slot Completed in 806ms
+358 timing reifyNode:node_modules/hoist-non-react-statics Completed in 806ms
+359 timing reifyNode:node_modules/hasown Completed in 806ms
+360 timing reifyNode:node_modules/fast-deep-equal Completed in 806ms
+361 timing reifyNode:node_modules/functions-have-names Completed in 806ms
+362 timing reifyNode:node_modules/esutils Completed in 807ms
+363 timing reifyNode:node_modules/is-string Completed in 808ms
+364 timing reifyNode:node_modules/is-shared-array-buffer Completed in 808ms
+365 timing reifyNode:node_modules/is-bigint Completed in 807ms
+366 timing reifyNode:node_modules/is-core-module Completed in 807ms
+367 timing reifyNode:node_modules/is-typed-array Completed in 809ms
+368 timing reifyNode:node_modules/@emotion/use-insertion-effect-with-fallbacks Completed in 807ms
+369 timing reifyNode:node_modules/unbox-primitive Completed in 810ms
+370 timing reifyNode:node_modules/side-channel Completed in 810ms
+371 timing reifyNode:node_modules/which-boxed-primitive Completed in 811ms
+372 timing reifyNode:node_modules/is-date-object Completed in 809ms
+373 timing reifyNode:node_modules/is-generator-function Completed in 809ms
+374 timing reifyNode:node_modules/get-symbol-description Completed in 810ms
+375 timing reifyNode:node_modules/is-negative-zero Completed in 810ms
+376 timing reifyNode:node_modules/get-intrinsic Completed in 810ms
+377 timing reifyNode:node_modules/es-shim-unscopables Completed in 811ms
+378 timing reifyNode:node_modules/call-bind Completed in 810ms
+379 timing reifyNode:node_modules/available-typed-arrays Completed in 810ms
+380 timing reifyNode:node_modules/@vitejs/plugin-react Completed in 810ms
+381 timing reifyNode:node_modules/@jridgewell/resolve-uri Completed in 810ms
+382 timing reifyNode:node_modules/@humanwhocodes/module-importer Completed in 810ms
+383 timing reifyNode:node_modules/is-boolean-object Completed in 811ms
+384 timing reifyNode:node_modules/prelude-ls Completed in 813ms
+385 timing reifyNode:node_modules/is-symbol Completed in 813ms
+386 timing reifyNode:node_modules/is-callable Completed in 813ms
+387 timing reifyNode:node_modules/object-keys Completed in 814ms
+388 timing reifyNode:node_modules/@chakra-ui/breakpoint-utils Completed in 811ms
+389 timing reifyNode:node_modules/is-set Completed in 814ms
+390 timing reifyNode:node_modules/eslint-visitor-keys Completed in 813ms
+391 timing reifyNode:node_modules/eslint-plugin-react-hooks Completed in 813ms
+392 timing reifyNode:node_modules/browserslist Completed in 813ms
+393 timing reifyNode:node_modules/is-weakset Completed in 815ms
+394 timing reifyNode:node_modules/react-refresh Completed in 815ms
+395 timing reifyNode:node_modules/is-map Completed in 814ms
+396 timing reifyNode:node_modules/@jridgewell/sourcemap-codec Completed in 814ms
+397 timing reifyNode:node_modules/object.fromentries Completed in 816ms
+398 timing reifyNode:node_modules/has-tostringtag Completed in 815ms
+399 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 814ms
+400 timing reifyNode:node_modules/@babel/helper-module-imports Completed in 814ms
+401 timing reifyNode:node_modules/css-box-model Completed in 816ms
+402 timing reifyNode:node_modules/compute-scroll-into-view Completed in 815ms
+403 timing reifyNode:node_modules/@zag-js/focus-visible Completed in 815ms
+404 timing reifyNode:node_modules/globalthis Completed in 818ms
+405 timing reifyNode:node_modules/function-bind Completed in 818ms
+406 timing reifyNode:node_modules/aria-hidden Completed in 817ms
+407 timing reifyNode:node_modules/string.prototype.trimstart Completed in 820ms
+408 timing reifyNode:node_modules/text-table Completed in 821ms
+409 timing reifyNode:node_modules/arraybuffer.prototype.slice Completed in 818ms
+410 timing reifyNode:node_modules/@chakra-ui/skip-nav Completed in 817ms
+411 timing reifyNode:node_modules/tiny-invariant Completed in 821ms
+412 timing reifyNode:node_modules/string.prototype.trimend Completed in 821ms
+413 timing reifyNode:node_modules/@chakra-ui/focus-lock Completed in 818ms
+414 timing reifyNode:node_modules/@chakra-ui/control-box Completed in 818ms
+415 timing reifyNode:node_modules/framer-motion/node_modules/@emotion/memoize Completed in 820ms
+416 timing reifyNode:node_modules/framesync/node_modules/tslib Completed in 820ms
+417 timing reifyNode:node_modules/espree Completed in 820ms
+418 timing reifyNode:node_modules/@chakra-ui/spinner Completed in 818ms
+419 timing reifyNode:node_modules/eslint-plugin-react/node_modules/doctrine Completed in 821ms
+420 timing reifyNode:node_modules/argparse Completed in 820ms
+421 timing reifyNode:node_modules/define-data-property Completed in 821ms
+422 timing reifyNode:node_modules/json-stable-stringify-without-jsonify Completed in 824ms
+423 timing reifyNode:node_modules/reflect.getprototypeof Completed in 824ms
+424 timing reifyNode:node_modules/@chakra-ui/react-env Completed in 821ms
+425 timing reifyNode:node_modules/doctrine Completed in 823ms
+426 timing reifyNode:node_modules/object.values Completed in 824ms
+427 timing reifyNode:node_modules/object.entries Completed in 824ms
+428 timing reifyNode:node_modules/has-symbols Completed in 824ms
+429 timing reifyNode:node_modules/object.hasown Completed in 825ms
+430 timing reifyNode:node_modules/array.prototype.flat Completed in 823ms
+431 timing reifyNode:node_modules/prop-types Completed in 826ms
+432 timing reifyNode:node_modules/@zag-js/element-size Completed in 824ms
+433 timing reifyNode:node_modules/@chakra-ui/switch Completed in 824ms
+434 timing reifyNode:node_modules/@chakra-ui/tag Completed in 824ms
+435 timing reifyNode:node_modules/@chakra-ui/provider Completed in 823ms
+436 timing reifyNode:node_modules/fastq Completed in 826ms
+437 timing reifyNode:node_modules/@babel/compat-data Completed in 824ms
+438 timing reifyNode:node_modules/esbuild Completed in 826ms
+439 timing reifyNode:node_modules/@chakra-ui/counter Completed in 824ms
+440 timing reifyNode:node_modules/regexp.prototype.flags Completed in 828ms
+441 timing reifyNode:node_modules/array.prototype.tosorted Completed in 826ms
+442 timing reifyNode:node_modules/string.prototype.trim Completed in 829ms
+443 timing reifyNode:node_modules/fast-json-stable-stringify Completed in 828ms
+444 timing reifyNode:node_modules/array-includes Completed in 827ms
+445 timing reifyNode:node_modules/string.prototype.matchall Completed in 830ms
+446 timing reifyNode:node_modules/array.prototype.flatmap Completed in 827ms
+447 timing reifyNode:node_modules/@chakra-ui/textarea Completed in 828ms
+448 timing reifyNode:node_modules/@chakra-ui/react Completed in 827ms
+449 timing reifyNode:node_modules/@emotion/unitless Completed in 828ms
+450 timing reifyNode:node_modules/@chakra-ui/close-button Completed in 828ms
+451 timing reifyNode:node_modules/@jridgewell/gen-mapping Completed in 829ms
+452 timing reifyNode:node_modules/@chakra-ui/css-reset Completed in 829ms
+453 timing reifyNode:node_modules/@chakra-ui/react-utils Completed in 829ms
+454 timing reifyNode:node_modules/flatted Completed in 831ms
+455 timing reifyNode:node_modules/@chakra-ui/dom-utils Completed in 829ms
+456 timing reifyNode:node_modules/@ungap/structured-clone Completed in 831ms
+457 timing reifyNode:node_modules/@nodelib/fs.stat Completed in 831ms
+458 timing reifyNode:node_modules/@ampproject/remapping Completed in 831ms
+459 timing reifyNode:node_modules/framer-motion/node_modules/@emotion/is-prop-valid Completed in 833ms
+460 timing reifyNode:node_modules/@babel/helper-compilation-targets Completed in 831ms
+461 timing reifyNode:node_modules/es-to-primitive Completed in 833ms
+462 timing reifyNode:node_modules/tslib Completed in 835ms
+463 timing reifyNode:node_modules/@humanwhocodes/object-schema Completed in 832ms
+464 timing reifyNode:node_modules/@chakra-ui/portal Completed in 832ms
+465 timing reifyNode:node_modules/function.prototype.name Completed in 835ms
+466 timing reifyNode:node_modules/@chakra-ui/event-utils Completed in 834ms
+467 timing reifyNode:node_modules/@emotion/memoize Completed in 836ms
+468 timing reifyNode:node_modules/@chakra-ui/live-region Completed in 835ms
+469 timing reifyNode:node_modules/eslint-scope Completed in 837ms
+470 timing reifyNode:node_modules/@chakra-ui/visually-hidden Completed in 837ms
+471 timing reifyNode:node_modules/@babel/template Completed in 837ms
+472 timing reifyNode:node_modules/@emotion/weak-memoize Completed in 838ms
+473 timing reifyNode:node_modules/stylis Completed in 841ms
+474 timing reifyNode:node_modules/source-map-js Completed in 842ms
+475 timing reifyNode:node_modules/@emotion/hash Completed in 839ms
+476 timing reifyNode:node_modules/@emotion/utils Completed in 840ms
+477 timing reifyNode:node_modules/@chakra-ui/icon Completed in 839ms
+478 timing reifyNode:node_modules/nanoid Completed in 842ms
+479 timing reifyNode:node_modules/framesync Completed in 841ms
+480 timing reifyNode:node_modules/@babel/helper-module-transforms Completed in 839ms
+481 timing reifyNode:node_modules/scheduler Completed in 844ms
+482 timing reifyNode:node_modules/@emotion/is-prop-valid Completed in 841ms
+483 timing reifyNode:node_modules/@emotion/sheet Completed in 841ms
+484 timing reifyNode:node_modules/@nodelib/fs.scandir Completed in 841ms
+485 timing reifyNode:node_modules/@jridgewell/trace-mapping Completed in 841ms
+486 timing reifyNode:node_modules/@chakra-ui/clickable Completed in 840ms
+487 timing reifyNode:node_modules/electron-to-chromium Completed in 843ms
+488 timing reifyNode:node_modules/@eslint-community/eslint-utils Completed in 842ms
+489 timing reifyNode:node_modules/@emotion/serialize Completed in 844ms
+490 timing reifyNode:node_modules/@chakra-ui/select Completed in 843ms
+491 timing reifyNode:node_modules/eslint-plugin-react-refresh Completed in 846ms
+492 timing reifyNode:node_modules/@chakra-ui/object-utils Completed in 845ms
+493 timing reifyNode:node_modules/@chakra-ui/styled-system Completed in 846ms
+494 timing reifyNode:node_modules/@eslint-community/regexpp Completed in 847ms
+495 timing reifyNode:node_modules/@zag-js/dom-query Completed in 847ms
+496 timing reifyNode:node_modules/react-remove-scroll-bar Completed in 851ms
+497 timing reifyNode:node_modules/@chakra-ui/react-use-pan-event Completed in 848ms
+498 timing reifyNode:node_modules/@nodelib/fs.walk Completed in 850ms
+499 timing reifyNode:node_modules/react-style-singleton Completed in 853ms
+500 timing reifyNode:node_modules/@chakra-ui/pin-input Completed in 851ms
+501 timing reifyNode:node_modules/@react-leaflet/core Completed in 853ms
+502 timing reifyNode:node_modules/@chakra-ui/descendant Completed in 852ms
+503 timing reifyNode:node_modules/@types/react Completed in 853ms
+504 timing reifyNode:node_modules/json5 Completed in 856ms
+505 timing reifyNode:node_modules/undici-types Completed in 858ms
+506 timing reifyNode:node_modules/react Completed in 857ms
+507 timing reifyNode:node_modules/@chakra-ui/theme-utils Completed in 856ms
+508 timing reifyNode:node_modules/@chakra-ui/image Completed in 855ms
+509 timing reifyNode:node_modules/@chakra-ui/skeleton Completed in 857ms
+510 timing reifyNode:node_modules/acorn Completed in 858ms
+511 timing reifyNode:node_modules/@chakra-ui/tooltip Completed in 859ms
+512 timing reifyNode:node_modules/@emotion/cache Completed in 859ms
+513 timing reifyNode:node_modules/object-inspect Completed in 862ms
+514 timing reifyNode:node_modules/@chakra-ui/card Completed in 860ms
+515 timing reifyNode:node_modules/react-focus-lock Completed in 864ms
+516 timing reifyNode:node_modules/@chakra-ui/input Completed in 861ms
+517 timing reifyNode:node_modules/@emotion/babel-plugin Completed in 865ms
+518 timing reifyNode:node_modules/cosmiconfig Completed in 866ms
+519 timing reifyNode:node_modules/@chakra-ui/popper Completed in 865ms
+520 timing reifyNode:node_modules/@chakra-ui/breadcrumb Completed in 866ms
+521 timing reifyNode:node_modules/type-fest Completed in 870ms
+522 timing reifyNode:node_modules/@chakra-ui/color-mode Completed in 869ms
+523 timing reifyNode:node_modules/react-leaflet Completed in 872ms
+524 timing reifyNode:node_modules/@chakra-ui/radio Completed in 871ms
+525 timing reifyNode:node_modules/@chakra-ui/theme-tools Completed in 872ms
+526 timing reifyNode:node_modules/color2k Completed in 873ms
+527 timing reifyNode:node_modules/@chakra-ui/alert Completed in 872ms
+528 timing reifyNode:node_modules/@chakra-ui/form-control Completed in 874ms
+529 timing reifyNode:node_modules/@chakra-ui/stat Completed in 875ms
+530 timing reifyNode:node_modules/use-sidecar Completed in 879ms
+531 timing reifyNode:node_modules/graphemer Completed in 878ms
+532 http fetch GET 200 https://registry.npmjs.org/random-js/-/random-js-1.0.8.tgz 842ms (cache miss)
+533 timing reifyNode:node_modules/random-js Completed in 881ms
+534 timing reifyNode:node_modules/js-yaml Completed in 880ms
+535 timing reifyNode:node_modules/@chakra-ui/number-input Completed in 878ms
+536 timing reifyNode:node_modules/use-callback-ref Completed in 883ms
+537 timing reifyNode:node_modules/@chakra-ui/transition Completed in 881ms
+538 timing reifyNode:node_modules/@emotion/babel-plugin/node_modules/source-map Completed in 881ms
+539 timing reifyNode:node_modules/@chakra-ui/progress Completed in 881ms
+540 timing reifyNode:node_modules/postcss Completed in 886ms
+541 timing reifyNode:node_modules/@chakra-ui/table Completed in 884ms
+542 timing reifyNode:node_modules/react-router Completed in 886ms
+543 timing reifyNode:node_modules/@chakra-ui/avatar Completed in 884ms
+544 timing reifyNode:node_modules/@chakra-ui/button Completed in 884ms
+545 timing reifyNode:node_modules/esquery Completed in 887ms
+546 timing reifyNode:node_modules/csstype Completed in 888ms
+547 timing reifyNode:node_modules/@emotion/styled Completed in 887ms
+548 timing reifyNode:node_modules/react-router-dom Completed in 890ms
+549 timing reifyNode:node_modules/@eslint/eslintrc Completed in 888ms
+550 timing reifyNode:node_modules/react-remove-scroll Completed in 891ms
+551 timing reifyNode:node_modules/@chakra-ui/media-query Completed in 889ms
+552 timing reifyNode:node_modules/@chakra-ui/slider Completed in 889ms
+553 timing reifyNode:node_modules/uri-js Completed in 893ms
+554 timing reifyNode:node_modules/@babel/generator Completed in 890ms
+555 timing reifyNode:node_modules/@chakra-ui/editable Completed in 890ms
+556 timing reifyNode:node_modules/@chakra-ui/tabs Completed in 893ms
+557 timing reifyNode:node_modules/@chakra-ui/checkbox Completed in 892ms
+558 timing reifyNode:node_modules/object.assign Completed in 896ms
+559 timing reifyNode:node_modules/@chakra-ui/utils Completed in 895ms
+560 timing reifyNode:node_modules/@chakra-ui/system Completed in 896ms
+561 timing reifyNode:node_modules/@chakra-ui/accordion Completed in 895ms
+562 timing reifyNode:node_modules/cosmiconfig/node_modules/yaml Completed in 896ms
+563 timing reifyNode:node_modules/@babel/helpers Completed in 898ms
+564 timing reifyNode:node_modules/@chakra-ui/toast Completed in 902ms
+565 timing reifyNode:node_modules/@chakra-ui/stepper Completed in 902ms
+566 timing reifyNode:node_modules/@babel/traverse Completed in 903ms
+567 timing reifyNode:node_modules/@babel/parser Completed in 904ms
+568 timing reifyNode:node_modules/@chakra-ui/popover Completed in 905ms
+569 timing reifyNode:node_modules/jsx-ast-utils Completed in 912ms
+570 timing reifyNode:node_modules/es-iterator-helpers Completed in 912ms
+571 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 916ms
+572 timing reifyNode:node_modules/@remix-run/router Completed in 916ms
+573 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 916ms
+574 timing reifyNode:node_modules/@emotion/react Completed in 918ms
+575 timing reifyNode:node_modules/@chakra-ui/modal Completed in 917ms
+576 timing reifyNode:node_modules/ajv Completed in 920ms
+577 timing reifyNode:node_modules/rollup Completed in 923ms
+578 timing reifyNode:node_modules/@chakra-ui/menu Completed in 923ms
+579 timing reifyNode:node_modules/focus-lock Completed in 926ms
+580 timing reifyNode:node_modules/resolve Completed in 930ms
+581 timing reifyNode:node_modules/eslint-plugin-react/node_modules/resolve Completed in 929ms
+582 timing reifyNode:node_modules/@babel/core Completed in 929ms
+583 timing reifyNode:node_modules/eslint-plugin-react Completed in 932ms
+584 timing reifyNode:node_modules/@babel/runtime Completed in 933ms
+585 timing reifyNode:node_modules/@chakra-ui/layout Completed in 935ms
+586 timing reifyNode:node_modules/vite Completed in 939ms
+587 timing reifyNode:node_modules/@chakra-ui/hooks Completed in 937ms
+588 timing reifyNode:node_modules/react-dom Completed in 943ms
+589 timing reifyNode:node_modules/@chakra-ui/anatomy Completed in 948ms
+590 timing reifyNode:node_modules/leaflet Completed in 952ms
+591 timing reifyNode:node_modules/@popperjs/core Completed in 951ms
+592 timing reifyNode:node_modules/@babel/types Completed in 951ms
+593 timing reifyNode:node_modules/@types/node Completed in 952ms
+594 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 966ms
+595 timing reifyNode:node_modules/@chakra-ui/theme Completed in 975ms
+596 timing reifyNode:node_modules/framer-motion Completed in 976ms
+597 timing reifyNode:node_modules/eslint Completed in 979ms
+598 timing reifyNode:node_modules/@types/lodash Completed in 979ms
+599 timing reifyNode:node_modules/caniuse-lite Completed in 987ms
+600 timing reifyNode:node_modules/es-abstract Completed in 1002ms
+601 timing reifyNode:node_modules/react-icons Completed in 1033ms
+602 timing reify:unpack Completed in 1034ms
+603 timing reify:unretire Completed in 0ms
+604 timing build:queue Completed in 4ms
+605 timing build:link:node_modules/@babel/parser Completed in 2ms
+606 timing build:link:node_modules/acorn Completed in 2ms
+607 timing build:link:node_modules/browserslist Completed in 2ms
+608 timing build:link:node_modules/esbuild Completed in 2ms
+609 timing build:link:node_modules/js-yaml Completed in 2ms
+610 timing build:link:node_modules/eslint Completed in 2ms
+611 timing build:link:node_modules/eslint-plugin-react/node_modules/resolve Completed in 1ms
+612 timing build:link:node_modules/json5 Completed in 2ms
+613 timing build:link:node_modules/loose-envify Completed in 2ms
+614 timing build:link:node_modules/nanoid Completed in 2ms
+615 timing build:link:node_modules/jsesc Completed in 2ms
+616 timing build:link:node_modules/resolve Completed in 1ms
+617 timing build:link:node_modules/rimraf Completed in 1ms
+618 timing build:link:node_modules/rollup Completed in 1ms
+619 timing build:link:node_modules/update-browserslist-db Completed in 1ms
+620 timing build:link:node_modules/semver Completed in 1ms
+621 timing build:link:node_modules/vite Completed in 1ms
+622 timing build:link:node_modules/which Completed in 1ms
+623 timing build:link Completed in 2ms
+624 info run esbuild@0.20.2 postinstall node_modules/esbuild node install.js
+625 info run esbuild@0.20.2 postinstall { code: 0, signal: null }
+626 timing build:run:postinstall:node_modules/esbuild Completed in 32ms
+627 timing build:run:postinstall Completed in 32ms
+628 timing build:deps Completed in 38ms
+629 timing build Completed in 38ms
+630 timing reify:build Completed in 38ms
+631 timing reify:trash Completed in 1ms
+632 timing reify:save Completed in 60ms
+633 timing reify Completed in 1400ms
+634 silly ADD node_modules/random-js
+635 silly ADD node_modules/yocto-queue
+636 silly ADD node_modules/yallist
+637 silly ADD node_modules/wrappy
+638 silly ADD node_modules/which-typed-array
+639 silly ADD node_modules/which-collection
+640 silly ADD node_modules/which-builtin-type
+641 silly ADD node_modules/which-boxed-primitive
+642 silly ADD node_modules/which
+643 silly ADD node_modules/vite
+644 silly ADD node_modules/use-sidecar
+645 silly ADD node_modules/use-callback-ref
+646 silly ADD node_modules/uri-js
+647 silly ADD node_modules/update-browserslist-db
+648 silly ADD node_modules/undici-types
+649 silly ADD node_modules/unbox-primitive
+650 silly ADD node_modules/typed-array-length
+651 silly ADD node_modules/typed-array-byte-offset
+652 silly ADD node_modules/typed-array-byte-length
+653 silly ADD node_modules/typed-array-buffer
+654 silly ADD node_modules/type-fest
+655 silly ADD node_modules/type-check
+656 silly ADD node_modules/tslib
+657 silly ADD node_modules/toggle-selection
+658 silly ADD node_modules/to-fast-properties
+659 silly ADD node_modules/tiny-invariant
+660 silly ADD node_modules/text-table
+661 silly ADD node_modules/supports-preserve-symlinks-flag
+662 silly ADD node_modules/supports-color
+663 silly ADD node_modules/stylis
+664 silly ADD node_modules/strip-json-comments
+665 silly ADD node_modules/strip-ansi
+666 silly ADD node_modules/string.prototype.trimstart
+667 silly ADD node_modules/string.prototype.trimend
+668 silly ADD node_modules/string.prototype.trim
+669 silly ADD node_modules/string.prototype.matchall
+670 silly ADD node_modules/source-map-js
+671 silly ADD node_modules/side-channel
+672 silly ADD node_modules/shebang-regex
+673 silly ADD node_modules/shebang-command
+674 silly ADD node_modules/set-function-name
+675 silly ADD node_modules/set-function-length
+676 silly ADD node_modules/semver
+677 silly ADD node_modules/scheduler
+678 silly ADD node_modules/safe-regex-test
+679 silly ADD node_modules/safe-array-concat
+680 silly ADD node_modules/run-parallel
+681 silly ADD node_modules/rollup
+682 silly ADD node_modules/rimraf
+683 silly ADD node_modules/reusify
+684 silly ADD node_modules/resolve-from
+685 silly ADD node_modules/resolve
+686 silly ADD node_modules/regexp.prototype.flags
+687 silly ADD node_modules/regenerator-runtime
+688 silly ADD node_modules/reflect.getprototypeof
+689 silly ADD node_modules/react-style-singleton
+690 silly ADD node_modules/react-router-dom
+691 silly ADD node_modules/react-router
+692 silly ADD node_modules/react-remove-scroll-bar
+693 silly ADD node_modules/react-remove-scroll
+694 silly ADD node_modules/react-refresh
+695 silly ADD node_modules/react-leaflet
+696 silly ADD node_modules/react-is
+697 silly ADD node_modules/react-icons
+698 silly ADD node_modules/react-focus-lock
+699 silly ADD node_modules/react-fast-compare
+700 silly ADD node_modules/react-dom
+701 silly ADD node_modules/react-clientside-effect
+702 silly ADD node_modules/react
+703 silly ADD node_modules/queue-microtask
+704 silly ADD node_modules/punycode
+705 silly ADD node_modules/prop-types
+706 silly ADD node_modules/prelude-ls
+707 silly ADD node_modules/postcss
+708 silly ADD node_modules/picocolors
+709 silly ADD node_modules/path-type
+710 silly ADD node_modules/path-parse
+711 silly ADD node_modules/path-key
+712 silly ADD node_modules/path-is-absolute
+713 silly ADD node_modules/path-exists
+714 silly ADD node_modules/parse-json
+715 silly ADD node_modules/parent-module
+716 silly ADD node_modules/p-locate
+717 silly ADD node_modules/p-limit
+718 silly ADD node_modules/optionator
+719 silly ADD node_modules/once
+720 silly ADD node_modules/object.values
+721 silly ADD node_modules/object.hasown
+722 silly ADD node_modules/object.fromentries
+723 silly ADD node_modules/object.entries
+724 silly ADD node_modules/object.assign
+725 silly ADD node_modules/object-keys
+726 silly ADD node_modules/object-inspect
+727 silly ADD node_modules/object-assign
+728 silly ADD node_modules/node-releases
+729 silly ADD node_modules/natural-compare
+730 silly ADD node_modules/nanoid
+731 silly ADD node_modules/ms
+732 silly ADD node_modules/minimatch
+733 silly ADD node_modules/lru-cache
+734 silly ADD node_modules/loose-envify
+735 silly ADD node_modules/lodash.mergewith
+736 silly ADD node_modules/lodash.merge
+737 silly ADD node_modules/locate-path
+738 silly ADD node_modules/lines-and-columns
+739 silly ADD node_modules/levn
+740 silly ADD node_modules/leaflet
+741 silly ADD node_modules/keyv
+742 silly ADD node_modules/jsx-ast-utils
+743 silly ADD node_modules/json5
+744 silly ADD node_modules/json-stable-stringify-without-jsonify
+745 silly ADD node_modules/json-schema-traverse
+746 silly ADD node_modules/json-parse-even-better-errors
+747 silly ADD node_modules/json-buffer
+748 silly ADD node_modules/jsesc
+749 silly ADD node_modules/js-yaml
+750 silly ADD node_modules/js-tokens
+751 silly ADD node_modules/iterator.prototype
+752 silly ADD node_modules/isexe
+753 silly ADD node_modules/isarray
+754 silly ADD node_modules/is-weakset
+755 silly ADD node_modules/is-weakref
+756 silly ADD node_modules/is-weakmap
+757 silly ADD node_modules/is-typed-array
+758 silly ADD node_modules/is-symbol
+759 silly ADD node_modules/is-string
+760 silly ADD node_modules/is-shared-array-buffer
+761 silly ADD node_modules/is-set
+762 silly ADD node_modules/is-regex
+763 silly ADD node_modules/is-path-inside
+764 silly ADD node_modules/is-number-object
+765 silly ADD node_modules/is-negative-zero
+766 silly ADD node_modules/is-map
+767 silly ADD node_modules/is-glob
+768 silly ADD node_modules/is-generator-function
+769 silly ADD node_modules/is-finalizationregistry
+770 silly ADD node_modules/is-extglob
+771 silly ADD node_modules/is-date-object
+772 silly ADD node_modules/is-core-module
+773 silly ADD node_modules/is-callable
+774 silly ADD node_modules/is-boolean-object
+775 silly ADD node_modules/is-bigint
+776 silly ADD node_modules/is-async-function
+777 silly ADD node_modules/is-array-buffer
+778 silly ADD node_modules/invariant
+779 silly ADD node_modules/internal-slot
+780 silly ADD node_modules/inherits
+781 silly ADD node_modules/inflight
+782 silly ADD node_modules/imurmurhash
+783 silly ADD node_modules/import-fresh
+784 silly ADD node_modules/ignore
+785 silly ADD node_modules/hoist-non-react-statics
+786 silly ADD node_modules/hasown
+787 silly ADD node_modules/has-tostringtag
+788 silly ADD node_modules/has-symbols
+789 silly ADD node_modules/has-proto
+790 silly ADD node_modules/has-property-descriptors
+791 silly ADD node_modules/has-flag
+792 silly ADD node_modules/has-bigints
+793 silly ADD node_modules/has
+794 silly ADD node_modules/graphemer
+795 silly ADD node_modules/gopd
+796 silly ADD node_modules/globalthis
+797 silly ADD node_modules/globals
+798 silly ADD node_modules/glob-parent
+799 silly ADD node_modules/glob
+800 silly ADD node_modules/get-symbol-description
+801 silly ADD node_modules/get-nonce
+802 silly ADD node_modules/get-intrinsic
+803 silly ADD node_modules/gensync
+804 silly ADD node_modules/functions-have-names
+805 silly ADD node_modules/function.prototype.name
+806 silly ADD node_modules/function-bind
+807 silly ADD
+808 silly ADD node_modules/fs.realpath
+809 silly ADD node_modules/framesync
+810 silly ADD node_modules/framesync/node_modules/tslib
+811 silly ADD node_modules/framer-motion
+812 silly ADD node_modules/framer-motion/node_modules/@emotion/memoize
+813 silly ADD node_modules/framer-motion/node_modules/@emotion/is-prop-valid
+814 silly ADD node_modules/for-each
+815 silly ADD node_modules/focus-lock
+816 silly ADD node_modules/flatted
+817 silly ADD node_modules/flat-cache
+818 silly ADD node_modules/find-up
+819 silly ADD node_modules/find-root
+820 silly ADD node_modules/file-entry-cache
+821 silly ADD node_modules/fastq
+822 silly ADD node_modules/fast-levenshtein
+823 silly ADD node_modules/fast-json-stable-stringify
+824 silly ADD node_modules/fast-deep-equal
+825 silly ADD node_modules/esutils
+826 silly ADD node_modules/estraverse
+827 silly ADD node_modules/esrecurse
+828 silly ADD node_modules/esquery
+829 silly ADD node_modules/espree
+830 silly ADD node_modules/eslint-visitor-keys
+831 silly ADD node_modules/eslint-scope
+832 silly ADD node_modules/eslint-plugin-react-refresh
+833 silly ADD node_modules/eslint-plugin-react-hooks
+834 silly ADD node_modules/eslint-plugin-react
+835 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+836 silly ADD node_modules/eslint-plugin-react/node_modules/doctrine
+837 silly ADD node_modules/eslint
+838 silly ADD node_modules/eslint/node_modules/supports-color
+839 silly ADD node_modules/eslint/node_modules/has-flag
+840 silly ADD node_modules/eslint/node_modules/globals
+841 silly ADD node_modules/eslint/node_modules/escape-string-regexp
+842 silly ADD node_modules/eslint/node_modules/color-name
+843 silly ADD node_modules/eslint/node_modules/color-convert
+844 silly ADD node_modules/eslint/node_modules/chalk
+845 silly ADD node_modules/eslint/node_modules/ansi-styles
+846 silly ADD node_modules/escape-string-regexp
+847 silly ADD node_modules/escalade
+848 silly ADD node_modules/esbuild
+849 silly ADD node_modules/es-to-primitive
+850 silly ADD node_modules/es-shim-unscopables
+851 silly ADD node_modules/es-set-tostringtag
+852 silly ADD node_modules/es-iterator-helpers
+853 silly ADD node_modules/es-abstract
+854 silly ADD node_modules/error-ex
+855 silly ADD node_modules/error-ex/node_modules/is-arrayish
+856 silly ADD node_modules/electron-to-chromium
+857 silly ADD node_modules/doctrine
+858 silly ADD node_modules/detect-node-es
+859 silly ADD node_modules/define-properties
+860 silly ADD node_modules/define-data-property
+861 silly ADD node_modules/deep-is
+862 silly ADD node_modules/debug
+863 silly ADD node_modules/csstype
+864 silly ADD node_modules/css-box-model
+865 silly ADD node_modules/cross-spawn
+866 silly ADD node_modules/cosmiconfig
+867 silly ADD node_modules/cosmiconfig/node_modules/yaml
+868 silly ADD node_modules/copy-to-clipboard
+869 silly ADD node_modules/convert-source-map
+870 silly ADD node_modules/concat-map
+871 silly ADD node_modules/compute-scroll-into-view
+872 silly ADD node_modules/color2k
+873 silly ADD node_modules/color-name
+874 silly ADD node_modules/color-convert
+875 silly ADD node_modules/chalk
+876 silly ADD node_modules/caniuse-lite
+877 silly ADD node_modules/callsites
+878 silly ADD node_modules/call-bind
+879 silly ADD node_modules/browserslist
+880 silly ADD node_modules/brace-expansion
+881 silly ADD node_modules/balanced-match
+882 silly ADD node_modules/babel-plugin-macros
+883 silly ADD node_modules/available-typed-arrays
+884 silly ADD node_modules/asynciterator.prototype
+885 silly ADD node_modules/arraybuffer.prototype.slice
+886 silly ADD node_modules/array.prototype.tosorted
+887 silly ADD node_modules/array.prototype.flatmap
+888 silly ADD node_modules/array.prototype.flat
+889 silly ADD node_modules/array-includes
+890 silly ADD node_modules/array-buffer-byte-length
+891 silly ADD node_modules/aria-hidden
+892 silly ADD node_modules/argparse
+893 silly ADD node_modules/ansi-styles
+894 silly ADD node_modules/ansi-regex
+895 silly ADD node_modules/ajv
+896 silly ADD node_modules/acorn-jsx
+897 silly ADD node_modules/acorn
+898 silly ADD node_modules/@zag-js/focus-visible
+899 silly ADD node_modules/@zag-js/element-size
+900 silly ADD node_modules/@zag-js/dom-query
+901 silly ADD node_modules/@vitejs/plugin-react
+902 silly ADD node_modules/@ungap/structured-clone
+903 silly ADD node_modules/@types/scheduler
+904 silly ADD node_modules/@types/react-dom
+905 silly ADD node_modules/@types/react
+906 silly ADD node_modules/@types/prop-types
+907 silly ADD node_modules/@types/parse-json
+908 silly ADD node_modules/@types/node
+909 silly ADD node_modules/@types/lodash.mergewith
+910 silly ADD node_modules/@types/lodash
+911 silly ADD node_modules/@types/estree
+912 silly ADD node_modules/@types/babel__traverse
+913 silly ADD node_modules/@types/babel__template
+914 silly ADD node_modules/@types/babel__generator
+915 silly ADD node_modules/@types/babel__core
+916 silly ADD
+917 silly ADD
+918 silly ADD
+919 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+920 silly ADD node_modules/@rollup/rollup-linux-x64-gnu
+921 silly ADD
+922 silly ADD
+923 silly ADD
+924 silly ADD
+925 silly ADD
+926 silly ADD
+927 silly ADD
+928 silly ADD
+929 silly ADD
+930 silly ADD
+931 silly ADD
+932 silly ADD node_modules/@remix-run/router
+933 silly ADD node_modules/@react-leaflet/core
+934 silly ADD node_modules/@popperjs/core
+935 silly ADD node_modules/@nodelib/fs.walk
+936 silly ADD node_modules/@nodelib/fs.stat
+937 silly ADD node_modules/@nodelib/fs.scandir
+938 silly ADD node_modules/@jridgewell/trace-mapping
+939 silly ADD node_modules/@jridgewell/sourcemap-codec
+940 silly ADD node_modules/@jridgewell/set-array
+941 silly ADD node_modules/@jridgewell/resolve-uri
+942 silly ADD node_modules/@jridgewell/gen-mapping
+943 silly ADD node_modules/@humanwhocodes/object-schema
+944 silly ADD node_modules/@humanwhocodes/module-importer
+945 silly ADD node_modules/@humanwhocodes/config-array
+946 silly ADD node_modules/@eslint/js
+947 silly ADD node_modules/@eslint/eslintrc
+948 silly ADD node_modules/@eslint/eslintrc/node_modules/globals
+949 silly ADD node_modules/@eslint-community/regexpp
+950 silly ADD node_modules/@eslint-community/eslint-utils
+951 silly ADD
+952 silly ADD
+953 silly ADD
+954 silly ADD
+955 silly ADD
+956 silly ADD
+957 silly ADD node_modules/@esbuild/linux-x64
+958 silly ADD
+959 silly ADD
+960 silly ADD
+961 silly ADD
+962 silly ADD
+963 silly ADD
+964 silly ADD
+965 silly ADD
+966 silly ADD
+967 silly ADD
+968 silly ADD
+969 silly ADD
+970 silly ADD
+971 silly ADD
+972 silly ADD
+973 silly ADD
+974 silly ADD node_modules/@emotion/weak-memoize
+975 silly ADD node_modules/@emotion/utils
+976 silly ADD node_modules/@emotion/use-insertion-effect-with-fallbacks
+977 silly ADD node_modules/@emotion/unitless
+978 silly ADD node_modules/@emotion/styled
+979 silly ADD node_modules/@emotion/sheet
+980 silly ADD node_modules/@emotion/serialize
+981 silly ADD node_modules/@emotion/react
+982 silly ADD node_modules/@emotion/memoize
+983 silly ADD node_modules/@emotion/is-prop-valid
+984 silly ADD node_modules/@emotion/hash
+985 silly ADD node_modules/@emotion/cache
+986 silly ADD node_modules/@emotion/babel-plugin
+987 silly ADD node_modules/@emotion/babel-plugin/node_modules/source-map
+988 silly ADD node_modules/@emotion/babel-plugin/node_modules/escape-string-regexp
+989 silly ADD node_modules/@emotion/babel-plugin/node_modules/convert-source-map
+990 silly ADD node_modules/@chakra-ui/visually-hidden
+991 silly ADD node_modules/@chakra-ui/utils
+992 silly ADD node_modules/@chakra-ui/transition
+993 silly ADD node_modules/@chakra-ui/tooltip
+994 silly ADD node_modules/@chakra-ui/toast
+995 silly ADD node_modules/@chakra-ui/theme-utils
+996 silly ADD node_modules/@chakra-ui/theme-tools
+997 silly ADD node_modules/@chakra-ui/theme
+998 silly ADD node_modules/@chakra-ui/textarea
+999 silly ADD node_modules/@chakra-ui/tag
+1000 silly ADD node_modules/@chakra-ui/tabs
+1001 silly ADD node_modules/@chakra-ui/table
+1002 silly ADD node_modules/@chakra-ui/system
+1003 silly ADD node_modules/@chakra-ui/switch
+1004 silly ADD node_modules/@chakra-ui/styled-system
+1005 silly ADD node_modules/@chakra-ui/stepper
+1006 silly ADD node_modules/@chakra-ui/stat
+1007 silly ADD node_modules/@chakra-ui/spinner
+1008 silly ADD node_modules/@chakra-ui/slider
+1009 silly ADD node_modules/@chakra-ui/skip-nav
+1010 silly ADD node_modules/@chakra-ui/skeleton
+1011 silly ADD node_modules/@chakra-ui/shared-utils
+1012 silly ADD node_modules/@chakra-ui/select
+1013 silly ADD node_modules/@chakra-ui/react-utils
+1014 silly ADD node_modules/@chakra-ui/react-use-update-effect
+1015 silly ADD node_modules/@chakra-ui/react-use-timeout
+1016 silly ADD node_modules/@chakra-ui/react-use-size
+1017 silly ADD node_modules/@chakra-ui/react-use-safe-layout-effect
+1018 silly ADD node_modules/@chakra-ui/react-use-previous
+1019 silly ADD node_modules/@chakra-ui/react-use-pan-event
+1020 silly ADD node_modules/@chakra-ui/react-use-outside-click
+1021 silly ADD node_modules/@chakra-ui/react-use-merge-refs
+1022 silly ADD node_modules/@chakra-ui/react-use-latest-ref
+1023 silly ADD node_modules/@chakra-ui/react-use-interval
+1024 silly ADD node_modules/@chakra-ui/react-use-focus-on-pointer-down
+1025 silly ADD node_modules/@chakra-ui/react-use-focus-effect
+1026 silly ADD node_modules/@chakra-ui/react-use-event-listener
+1027 silly ADD node_modules/@chakra-ui/react-use-disclosure
+1028 silly ADD node_modules/@chakra-ui/react-use-controllable-state
+1029 silly ADD node_modules/@chakra-ui/react-use-callback-ref
+1030 silly ADD node_modules/@chakra-ui/react-use-animation-state
+1031 silly ADD node_modules/@chakra-ui/react-types
+1032 silly ADD node_modules/@chakra-ui/react-env
+1033 silly ADD node_modules/@chakra-ui/react-context
+1034 silly ADD node_modules/@chakra-ui/react-children-utils
+1035 silly ADD node_modules/@chakra-ui/react
+1036 silly ADD node_modules/@chakra-ui/radio
+1037 silly ADD node_modules/@chakra-ui/provider
+1038 silly ADD node_modules/@chakra-ui/progress
+1039 silly ADD node_modules/@chakra-ui/portal
+1040 silly ADD node_modules/@chakra-ui/popper
+1041 silly ADD node_modules/@chakra-ui/popover
+1042 silly ADD node_modules/@chakra-ui/pin-input
+1043 silly ADD node_modules/@chakra-ui/object-utils
+1044 silly ADD node_modules/@chakra-ui/number-utils
+1045 silly ADD node_modules/@chakra-ui/number-input
+1046 silly ADD node_modules/@chakra-ui/modal
+1047 silly ADD node_modules/@chakra-ui/menu
+1048 silly ADD node_modules/@chakra-ui/media-query
+1049 silly ADD node_modules/@chakra-ui/live-region
+1050 silly ADD node_modules/@chakra-ui/lazy-utils
+1051 silly ADD node_modules/@chakra-ui/layout
+1052 silly ADD node_modules/@chakra-ui/input
+1053 silly ADD node_modules/@chakra-ui/image
+1054 silly ADD node_modules/@chakra-ui/icon
+1055 silly ADD node_modules/@chakra-ui/hooks
+1056 silly ADD node_modules/@chakra-ui/form-control
+1057 silly ADD node_modules/@chakra-ui/focus-lock
+1058 silly ADD node_modules/@chakra-ui/event-utils
+1059 silly ADD node_modules/@chakra-ui/editable
+1060 silly ADD node_modules/@chakra-ui/dom-utils
+1061 silly ADD node_modules/@chakra-ui/descendant
+1062 silly ADD node_modules/@chakra-ui/css-reset
+1063 silly ADD node_modules/@chakra-ui/counter
+1064 silly ADD node_modules/@chakra-ui/control-box
+1065 silly ADD node_modules/@chakra-ui/color-mode
+1066 silly ADD node_modules/@chakra-ui/close-button
+1067 silly ADD node_modules/@chakra-ui/clickable
+1068 silly ADD node_modules/@chakra-ui/checkbox
+1069 silly ADD node_modules/@chakra-ui/card
+1070 silly ADD node_modules/@chakra-ui/button
+1071 silly ADD node_modules/@chakra-ui/breakpoint-utils
+1072 silly ADD node_modules/@chakra-ui/breadcrumb
+1073 silly ADD node_modules/@chakra-ui/avatar
+1074 silly ADD node_modules/@chakra-ui/anatomy
+1075 silly ADD node_modules/@chakra-ui/alert
+1076 silly ADD node_modules/@chakra-ui/accordion
+1077 silly ADD node_modules/@babel/types
+1078 silly ADD node_modules/@babel/traverse
+1079 silly ADD node_modules/@babel/template
+1080 silly ADD node_modules/@babel/runtime
+1081 silly ADD node_modules/@babel/plugin-transform-react-jsx-source
+1082 silly ADD node_modules/@babel/plugin-transform-react-jsx-self
+1083 silly ADD node_modules/@babel/parser
+1084 silly ADD node_modules/@babel/highlight
+1085 silly ADD node_modules/@babel/helpers
+1086 silly ADD node_modules/@babel/helper-validator-option
+1087 silly ADD node_modules/@babel/helper-validator-identifier
+1088 silly ADD node_modules/@babel/helper-string-parser
+1089 silly ADD node_modules/@babel/helper-split-export-declaration
+1090 silly ADD node_modules/@babel/helper-simple-access
+1091 silly ADD node_modules/@babel/helper-plugin-utils
+1092 silly ADD node_modules/@babel/helper-module-transforms
+1093 silly ADD node_modules/@babel/helper-module-imports
+1094 silly ADD node_modules/@babel/helper-hoist-variables
+1095 silly ADD node_modules/@babel/helper-function-name
+1096 silly ADD node_modules/@babel/helper-environment-visitor
+1097 silly ADD node_modules/@babel/helper-compilation-targets
+1098 silly ADD node_modules/@babel/generator
+1099 silly ADD node_modules/@babel/core
+1100 silly ADD node_modules/@babel/compat-data
+1101 silly ADD node_modules/@babel/code-frame
+1102 silly ADD node_modules/@ampproject/remapping
+1103 silly ADD node_modules/@aashutoshrathi/word-wrap
+1104 timing command:install Completed in 1407ms
+1105 verbose exit 0
+1106 timing npm Completed in 1484ms
+1107 info ok
